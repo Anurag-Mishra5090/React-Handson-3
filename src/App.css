@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+}
+
+
+.heading{
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    text-transform:uppercase;
+    
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: rgb(255, 25, 25);
+    border-radius: 20px;
+    box-shadow: 5px 5px 3px grey;
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+
+}
+label{
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    
+}
+button{
+    background-color: rgb(9, 151, 26);
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+    color: white;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+button:hover{
+    background-color:blue;
+    box-shadow: 2px 2px 2px black;
+
+
+}
+input{
+    border-radius: 5px;
+}
+
+.inserted-image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 100px 50px;
+}
+span{
+    background-color: rgb(40, 212, 228);
+    font-weight: bold;
+    padding: 20px 50px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+
